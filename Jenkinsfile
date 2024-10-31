@@ -7,11 +7,11 @@ pipeline {
             }
         }
         stage('Build') {
-            steps {
-                sh 'echo Building Node.js App...'
-                sh 'npm install'
-            }
-        }
+    steps {
+        sh 'npm install'
+    }
+}
+
         stage('Test') {
             steps {
                 sh 'echo Running tests...'
