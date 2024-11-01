@@ -2,8 +2,8 @@ pipeline {
     agent any
     stages {
         stage('Checkout') {
-            steps {
-                git branch: 'main', credentialsId: 'Rahul', url: 'https://github.com/Rahulchandna2001/lab2.git'
+            steps{
+            checkout scm
             }
         }
         stage('Build') {
