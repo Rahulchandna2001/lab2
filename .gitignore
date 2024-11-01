@@ -1,0 +1,41 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Build directories
+dist/
+build/
+coverage/
+
+# Miscellaneous
+*.bak
+*.log
+*.lock
+
